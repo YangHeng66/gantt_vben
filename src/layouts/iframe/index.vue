@@ -1,12 +1,4 @@
-<!--
- * @Author: liguokang && li-gu@outlook.com
- * @Date: 2024-05-10 10:32:27
- * @LastEditors: liguokang && li-gu@outlook.com
- * @LastEditTime: 2024-05-20 15:37:31
- * @FilePath: \Vue3-gantt\src\layouts\iframe\index.vue
- * @Description: 
- * Copyright (c) 2024 by Digital Management Center(DMC), All Rights Reserved. 
--->
+
 <template>
   <div v-if="showFrame">
     <template v-for="frame in getFramePages" :key="frame.path">

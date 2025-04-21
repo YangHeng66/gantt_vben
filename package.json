@@ -82,7 +82,7 @@
     "codemirror": "^5.65.16",
     "cropperjs": "^1.6.2",
     "crypto-js": "^4.2.0",
-    "dayjs": "^1.11.10",
+    "dayjs": "^1.11.13",
     "echarts": "^5.5.0",
     "exceljs": "^4.4.0",
     "lodash-es": "^4.17.21",

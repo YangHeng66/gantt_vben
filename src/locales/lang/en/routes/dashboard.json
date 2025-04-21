@@ -2,5 +2,6 @@
   "dashboard": "Dashboard",
   "about": "About",
   "workbench": "Workbench",
-  "analysis": "Analysis"
+  "analysis": "Analysis",
+  "newGantt": "New Gantt"
 }

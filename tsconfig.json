@@ -4,6 +4,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "declaration": false,
+    "esModuleInterop": true,
     "types": ["vite/client"],
     "paths": {
       "@/*": ["src/*"],
