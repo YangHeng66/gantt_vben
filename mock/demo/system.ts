@@ -91,7 +91,7 @@ const menuList = (() => {
             permission: ['menu1:view', 'menu2:add', 'menu3:update', 'menu4:del'][index],
             component: [
               '/dashboard/welcome/index',
-              '/dashboard/gantt/index',
+              '/dashboard/new-gantt/index',
               '/dashboard/workbench/index',
               '/dashboard/test/index',
             ][j],
@@ -113,7 +113,7 @@ const menuList = (() => {
                     (k + 1),
                   component: [
                     '/dashboard/welcome/index',
-                    '/dashboard/gantt/index',
+                    '/dashboard/new-gantt/index',
                     '/dashboard/workbench/index',
                     '/dashboard/test/index',
                   ][j],

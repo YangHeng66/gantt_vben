@@ -1,6 +1,6 @@
 import GanttChart from './src/GanttChart.vue';
-import { GanttTaskItem, GanttProps, GanttInstance } from './src/types';
+import type { GanttTaskItem, GanttProps, GanttInstance } from './src/types.ts';
 
-export { GanttTaskItem, GanttProps, GanttInstance };
+export type { GanttTaskItem, GanttProps, GanttInstance };
 export const GanttChartComp = GanttChart;
 export default GanttChart;

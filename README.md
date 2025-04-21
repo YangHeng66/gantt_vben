@@ -3,7 +3,7 @@
   <p>基于Vue3的可交互甘特图组件，支持任务拖拽、展开/折叠、里程碑等丰富功能</p>
 </div>
 
-![甘特图预览](./public/gantt图.png)
+![甘特图预览](./public/gaqntetu.png.png)
 
 ## 项目介绍
 

@@ -1,4 +1,6 @@
 /**
- * 导出所有类型定义
+ * 导出甘特图所需的所有类型定义
  */
-export * from '../types';
+import type { GanttTaskItem, GanttProps, GanttInstance } from '../types.ts';
+
+export type { GanttTaskItem, GanttProps, GanttInstance };

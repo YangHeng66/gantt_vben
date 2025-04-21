@@ -11,7 +11,7 @@ export function createFakeUserList() {
       desc: 'manager',
       password: '123456',
       token: 'fakeToken1',
-      homePath: '/dashboard/gantt',
+      homePath: '/dashboard/new-gantt',
       roles: [
         {
           roleName: 'Super Admin',

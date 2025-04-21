@@ -20,7 +20,7 @@ export function normalizeDate(date: string | Date): Date {
 
 /**
  * 计算任务持续时间（天）
- * @param startDate 开始日期
+ * @param startDate 开始日期SyntaxError: The requested module '/src/components/GanttChart/src/types.ts?t=1745230288644' does not provide an export named 'GanttInstance' (at index.ts:2:37)
  * @param endDate 结束日期
  * @returns 持续天数
  */

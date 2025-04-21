@@ -4,10 +4,10 @@ import { createFakeUserList } from './user';
 
 // single
 const dashboardRoute = {
-  path: '/gantt',
+  path: '/new-gantt',
   name: 'Dashboard',
   component: 'LAYOUT',
-  redirect: '/gantt',
+  redirect: '/new-gantt',
   meta: {
     title: 'routes.dashboard.dashboard',
     hideChildrenInMenu: true,
@@ -15,13 +15,13 @@ const dashboardRoute = {
   },
   children: [
     {
-      path: 'gantt',
+      path: 'new-gantt',
       name: 'Analysis',
-      component: '/dashboard/gantt/index',
+      component: '/dashboard/new-gantt/index',
       meta: {
         hideMenu: true,
         hideBreadcrumb: true,
-        title: 'routes.dashboard.gantt',
+        title: 'routes.dashboard.new-gantt',
         currentActiveMenu: '/dashboard',
         icon: 'bx:bx-home',
       },
